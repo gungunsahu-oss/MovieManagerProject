@@ -16,15 +16,6 @@ Program
 Contains the Main method and serves as the entry point of the application. It creates movie objects and interacts with MovieManager to perform operations.
 
 
-
-Technologies Used: 
-
-C#
-.NET Console Application
-Object-Oriented Programming
-Delegates
-Generic Collections (Dictionary)
-
 Sample Output:
 
 
