@@ -2,19 +2,6 @@ The Movie Manager Project is a C# console application built to demonstrate core 
 
 Delegates are used to simulate event-style notifications, where a confirmation message is displayed whenever a movie is successfully added to the system.
 
-Application Flow
-Program (Main)
-     |
-     v
-MovieManager
-     |
-     v
-MovieCollection
-     |
-     v
-Dictionary<Language, Dictionary<MovieId, Movie>>
-
-Project Structure Explanation
 
 Movie
 Represents the data model for a movie. It stores information such as movie ID, title, actor, actress, and release year.
@@ -28,19 +15,9 @@ Acts as the controller layer. It communicates with MovieCollection and uses a de
 Program
 Contains the Main method and serves as the entry point of the application. It creates movie objects and interacts with MovieManager to perform operations.
 
-Delegate Usage Diagram
-AddMovie() called
-      |
-      v
-MovieManager
-      |
-      v
-MovieHandler Delegate
-      |
-      v
-Acknowledgment Message Displayed
 
-Technologies Used
+
+Technologies Used: 
 
 C#
 .NET Console Application
@@ -48,7 +25,9 @@ Object-Oriented Programming
 Delegates
 Generic Collections (Dictionary)
 
-Sample Output
+Sample Output:
+
+
 Movie Singham added
 Movie Taare Zamin Par added
 Total Movies: 2
