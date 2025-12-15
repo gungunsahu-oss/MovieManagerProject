@@ -29,7 +29,11 @@ Sample Output:
 
 
 Movie Singham added
+
 Movie Taare Zamin Par added
+
 Total Movies: 2
+
 Movie Singham removed from Hindi
+
 Total Movies: 1
